@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  height: 67px;
+  margin: 5px 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: white;
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+
+  a {
+    margin: 30px 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
